@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+  }
+ 
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+ 
+  header h1 {
+    font-size: 28px;
+    color: #444;
+  }
+ 
+  /* Section Styles */
+  section {
+    margin-bottom: 20px;
+  }
+ 
+  h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+ 
+  /* Course List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .course-item span {
+    font-size: 18px;
+  }
+ 
+  .course-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .course-item button:hover {
+    background-color: #218838;
+  }
+ 
+  /* Registered Courses */
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  .registered-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #d1ecf1;
+    border-radius: 5px;
+    border: 1px solid #bee5eb;
+  }
+ 
+  .registered-course span {
+    font-size: 18px;
+  }
+ 
+  .registered-course button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .registered-course button:hover {
+    background-color: #c82333;
+  }
